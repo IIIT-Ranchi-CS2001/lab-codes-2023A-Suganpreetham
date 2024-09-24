@@ -1,0 +1,5 @@
+l1=['CS1001','CS1003','CS1005','CS1007']
+l2=['PYTHON','COMPUTER ORGANIZATION AND ARCHITECTURE','THEORY OF COMPUTATION','FUNDAMENTALS OF ALGORITHMS']
+l3=[]
+l3=[f"{code}:{course}"for code,course in zip(l1,l2)]
+print(l3)
